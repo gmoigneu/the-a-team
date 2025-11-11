@@ -4,7 +4,7 @@
 
 A comprehensive suite of specialized AI agents for brainstorming startup ideas, creating product specifications, and building full-stack applications.
 
-## Available Agents (22 total)
+## Available Agents (23 total)
 
 ### Business & Product Agents (4)
 1. **Market Research** (`agents/startups/market-research.md`) - Market analysis, competitive landscape, revenue potential
@@ -12,25 +12,26 @@ A comprehensive suite of specialized AI agents for brainstorming startup ideas, 
 3. **Product Manager** (`agents/startups/product-manager.md`) - Interactive PRD creation, feature prioritization
 4. **Domain Finder** (`agents/startups/domain-finder.md`) - Brandable domain names, availability checking
 
-### Frontend Development Agents (3)
-5. **Frontend Design** (`agents/frontend-design.md`) - UI/UX design with TanStack Start, React 19, Tailwind CSS v4
-6. **Frontend Architect** (`agents/frontend-architect.md`) - Application architecture, routing, state management, SSR strategies
-7. **Frontend Developer** (`agents/frontend-developer.md`) - Feature implementation with TanStack Query/Router/Table/Form
+### Frontend Development Agents (4)
+5. **Frontend Design** (`agents/frontend/frontend-design.md`) - UI/UX design with TanStack Start, React 19, Tailwind CSS v4
+6. **Frontend Architect** (`agents/frontend/frontend-architect.md`) - Application architecture, routing, state management, SSR strategies
+7. **Frontend Developer** (`agents/frontend/frontend-developer.md`) - Feature implementation with TanStack Query/Router/Table/Form
+8. **Website Analyzer** (`agents/frontend/website-analyzer.md`) - Reverse-engineer website designs using Chrome DevTools to create comprehensive design specification reports
 
 ### Backend Development Agents (1)
-8. **Golang REST API Developer** (`agents/api-golang/rest-api-developer.md`) - Production-ready APIs with Go 1.23+, PostgreSQL, pgx/v5, sqlc
+9. **Golang REST API Developer** (`agents/api-golang/rest-api-developer.md`) - Production-ready APIs with Go 1.23+, PostgreSQL, pgx/v5, sqlc
 
 ### iOS Development Agents (10)
-9. **SwiftUI Developer** (`agents/ios/swiftui-developer.md`) - Declarative UI, state management, animations, platform-adaptive experiences
-10. **MVVM Architect** (`agents/ios/mvvm-architect.md`) - MVVM architecture with Combine, clean separation of concerns
-11. **SwiftData Specialist** (`agents/ios/swiftdata-specialist.md`) - SwiftData persistence, Core Data migration, data modeling
-12. **Networking Expert** (`agents/ios/networking-expert.md`) - URLSession, async/await, API integration, error handling
-13. **Testing Expert** (`agents/ios/testing-expert.md`) - XCTest, UI testing, test coverage, TDD practices
-14. **Performance Engineer** (`agents/ios/performance-engineer.md`) - Performance optimization, profiling, memory management
-15. **Accessibility Expert** (`agents/ios/accessibility-expert.md`) - VoiceOver, Dynamic Type, inclusive app design
-16. **Security Tester** (`agents/ios/security-tester.md`) - Security best practices, keychain, data protection
-17. **Code Reviewer** (`agents/ios/code-reviewer.md`) - Code quality, Swift best practices, architectural review
-18. **Debugger** (`agents/ios/debugger.md`) - Debugging techniques, crash analysis, Instruments profiling
+10. **SwiftUI Developer** (`agents/ios/swiftui-developer.md`) - Declarative UI, state management, animations, platform-adaptive experiences
+11. **MVVM Architect** (`agents/ios/mvvm-architect.md`) - MVVM architecture with Combine, clean separation of concerns
+12. **SwiftData Specialist** (`agents/ios/swiftdata-specialist.md`) - SwiftData persistence, Core Data migration, data modeling
+13. **Networking Expert** (`agents/ios/networking-expert.md`) - URLSession, async/await, API integration, error handling
+14. **Testing Expert** (`agents/ios/testing-expert.md`) - XCTest, UI testing, test coverage, TDD practices
+15. **Performance Engineer** (`agents/ios/performance-engineer.md`) - Performance optimization, profiling, memory management
+16. **Accessibility Expert** (`agents/ios/accessibility-expert.md`) - VoiceOver, Dynamic Type, inclusive app design
+17. **Security Tester** (`agents/ios/security-tester.md`) - Security best practices, keychain, data protection
+18. **Code Reviewer** (`agents/ios/code-reviewer.md`) - Code quality, Swift best practices, architectural review
+19. **Debugger** (`agents/ios/debugger.md`) - Debugging techniques, crash analysis, Instruments profiling
 
 ### Agent Categories Summary
 - **Startup Validation**: Market research, pricing, product specs, branding
@@ -124,8 +125,13 @@ and analyze the market for a mobile fitness tracking app.
 
 ### Frontend Development
 ```
-Please act as the Frontend Architect agent defined in agents/frontend-architect.md
+Please act as the Frontend Architect agent defined in agents/frontend/frontend-architect.md
 and design the application structure for a SaaS dashboard.
+```
+
+```
+Please act as the Website Analyzer agent defined in agents/frontend/website-analyzer.md
+and analyze the design of stripe.com to create a comprehensive design specification report.
 ```
 
 ### Backend Development
