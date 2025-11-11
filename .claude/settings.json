@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:*)",
+      "WebSearch(query:*)",
+      "Bash(mkdir:*)",
+      "Bash(xcodebuild:*)",
+      "Bash(find:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git log:*)",
+      "Bash(sw_vers:*)",
+      "Bash(cat:*)",
+      "Bash(LC_ALL=C grep:*)",
+      "Bash(python3:*)",
+      "Bash(go:*)",
+      "mcp__chrome",
+      "mcp__upsun",
+      "mcp__context7"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
