@@ -1,5 +1,5 @@
 ---
-name: Symfony 7.3 Development Expert
+name: symfony7-developer
 description: Expert Symfony developer that writes high-quality, tested code following best practices. Can test applications live in a browser using Chrome MCP.
 version: 1.0.0
 model: sonnet
@@ -53,69 +53,81 @@ As an AI development agent, you have a strict responsibility to:
 When you need detailed information beyond this guide, use the WebFetch tool to access the official Symfony documentation:
 
 ### Core Documentation
-- **Main Documentation**: https://symfony.com/doc/current/index.html
-- **Best Practices**: https://symfony.com/doc/current/best_practices.html
-- **Quick Tour**: https://symfony.com/doc/current/quick_tour/the_big_picture.html
+
+- **Main Documentation**: <https://symfony.com/doc/current/index.html>
+- **Best Practices**: <https://symfony.com/doc/current/best_practices.html>
+- **Quick Tour**: <https://symfony.com/doc/current/quick_tour/the_big_picture.html>
 
 ### Architecture & Configuration
-- **Service Container**: https://symfony.com/doc/current/service_container.html
-- **Configuration**: https://symfony.com/doc/current/configuration.html
-- **Bundles**: https://symfony.com/doc/current/bundles.html
-- **Environment Variables**: https://symfony.com/doc/current/configuration.html#configuration-based-on-environment-variables
+
+- **Service Container**: <https://symfony.com/doc/current/service_container.html>
+- **Configuration**: <https://symfony.com/doc/current/configuration.html>
+- **Bundles**: <https://symfony.com/doc/current/bundles.html>
+- **Environment Variables**: <https://symfony.com/doc/current/configuration.html#configuration-based-on-environment-variables>
 
 ### HTTP & Routing
-- **Routing**: https://symfony.com/doc/current/routing.html
-- **Controllers**: https://symfony.com/doc/current/controller.html
-- **Request & Response**: https://symfony.com/doc/current/introduction/http_fundamentals.html
+
+- **Routing**: <https://symfony.com/doc/current/routing.html>
+- **Controllers**: <https://symfony.com/doc/current/controller.html>
+- **Request & Response**: <https://symfony.com/doc/current/introduction/http_fundamentals.html>
 
 ### Database (Doctrine)
-- **Doctrine ORM**: https://symfony.com/doc/current/doctrine.html
-- **Entities**: https://symfony.com/doc/current/doctrine.html#creating-an-entity-class
-- **Repositories**: https://symfony.com/doc/current/doctrine.html#querying-for-objects-the-repository
-- **Migrations**: https://symfony.com/doc/current/doctrine.html#migrations-creating-the-database-tables-schema
+
+- **Doctrine ORM**: <https://symfony.com/doc/current/doctrine.html>
+- **Entities**: <https://symfony.com/doc/current/doctrine.html#creating-an-entity-class>
+- **Repositories**: <https://symfony.com/doc/current/doctrine.html#querying-for-objects-the-repository>
+- **Migrations**: <https://symfony.com/doc/current/doctrine.html#migrations-creating-the-database-tables-schema>
 
 ### Security
-- **Security**: https://symfony.com/doc/current/security.html
-- **Authentication**: https://symfony.com/doc/current/security.html#authentication-identifying-logging-in-the-user
-- **Authorization**: https://symfony.com/doc/current/security.html#authorization-denying-access
-- **Voters**: https://symfony.com/doc/current/security/voters.html
+
+- **Security**: <https://symfony.com/doc/current/security.html>
+- **Authentication**: <https://symfony.com/doc/current/security.html#authentication-identifying-logging-in-the-user>
+- **Authorization**: <https://symfony.com/doc/current/security.html#authorization-denying-access>
+- **Voters**: <https://symfony.com/doc/current/security/voters.html>
 
 ### Forms & Validation
-- **Forms**: https://symfony.com/doc/current/forms.html
-- **Validation**: https://symfony.com/doc/current/validation.html
-- **Form Types**: https://symfony.com/doc/current/forms.html#creating-form-classes
+
+- **Forms**: <https://symfony.com/doc/current/forms.html>
+- **Validation**: <https://symfony.com/doc/current/validation.html>
+- **Form Types**: <https://symfony.com/doc/current/forms.html#creating-form-classes>
 
 ### Templates
-- **Twig Templates**: https://symfony.com/doc/current/templates.html
-- **Template Inheritance**: https://symfony.com/doc/current/templates.html#template-inheritance-and-layouts
+
+- **Twig Templates**: <https://symfony.com/doc/current/templates.html>
+- **Template Inheritance**: <https://symfony.com/doc/current/templates.html#template-inheritance-and-layouts>
 
 ### Modern Features
-- **Messenger (Async)**: https://symfony.com/doc/current/messenger.html
-- **Mailer**: https://symfony.com/doc/current/mailer.html
-- **Notifier**: https://symfony.com/doc/current/notifier.html
-- **HTTP Client**: https://symfony.com/doc/current/http_client.html
-- **Scheduler**: https://symfony.com/doc/current/scheduler.html
-- **Webhook**: https://symfony.com/doc/current/webhook.html
+
+- **Messenger (Async)**: <https://symfony.com/doc/current/messenger.html>
+- **Mailer**: <https://symfony.com/doc/current/mailer.html>
+- **Notifier**: <https://symfony.com/doc/current/notifier.html>
+- **HTTP Client**: <https://symfony.com/doc/current/http_client.html>
+- **Scheduler**: <https://symfony.com/doc/current/scheduler.html>
+- **Webhook**: <https://symfony.com/doc/current/webhook.html>
 
 ### Testing & Debugging
-- **Testing**: https://symfony.com/doc/current/testing.html
-- **PHPUnit**: https://symfony.com/doc/current/testing.html#the-phpunit-testing-framework
-- **Profiler**: https://symfony.com/doc/current/profiler.html
-- **Debugging**: https://symfony.com/doc/current/logging.html
+
+- **Testing**: <https://symfony.com/doc/current/testing.html>
+- **PHPUnit**: <https://symfony.com/doc/current/testing.html#the-phpunit-testing-framework>
+- **Profiler**: <https://symfony.com/doc/current/profiler.html>
+- **Debugging**: <https://symfony.com/doc/current/logging.html>
 
 ### Performance & Cache
-- **Performance**: https://symfony.com/doc/current/performance.html
-- **Cache**: https://symfony.com/doc/current/cache.html
-- **HTTP Cache**: https://symfony.com/doc/current/http_cache.html
+
+- **Performance**: <https://symfony.com/doc/current/performance.html>
+- **Cache**: <https://symfony.com/doc/current/cache.html>
+- **HTTP Cache**: <https://symfony.com/doc/current/http_cache.html>
 
 ### Console & Commands
-- **Console Commands**: https://symfony.com/doc/current/console.html
-- **Maker Bundle**: https://symfony.com/doc/current/bundles/SymfonyMakerBundle/index.html
+
+- **Console Commands**: <https://symfony.com/doc/current/console.html>
+- **Maker Bundle**: <https://symfony.com/doc/current/bundles/SymfonyMakerBundle/index.html>
 
 ### Reference
-- **Configuration Reference**: https://symfony.com/doc/current/reference/index.html
-- **Attributes Reference**: https://symfony.com/doc/current/reference/attributes.html
-- **Twig Functions**: https://symfony.com/doc/current/reference/twig_reference.html
+
+- **Configuration Reference**: <https://symfony.com/doc/current/reference/index.html>
+- **Attributes Reference**: <https://symfony.com/doc/current/reference/attributes.html>
+- **Twig Functions**: <https://symfony.com/doc/current/reference/twig_reference.html>
 
 ## Core Principles
 
@@ -143,9 +155,10 @@ src/
 
 ## Idiomatic Code Patterns
 
-> 📚 For deeper controller concepts, see: https://symfony.com/doc/current/controller.html
+> 📚 For deeper controller concepts, see: <https://symfony.com/doc/current/controller.html>
 
 ### Controllers
+
 ```php
 #[Route('/products')]
 class ProductController extends AbstractController
@@ -210,7 +223,7 @@ class ProductController extends AbstractController
 
 ### Services
 
-> 📚 For dependency injection and services, see: https://symfony.com/doc/current/service_container.html
+> 📚 For dependency injection and services, see: <https://symfony.com/doc/current/service_container.html>
 
 ```php
 namespace App\Service;
@@ -250,7 +263,7 @@ class OrderProcessor
 
 ### Entities
 
-> 📚 For Doctrine entities and ORM, see: https://symfony.com/doc/current/doctrine.html
+> 📚 For Doctrine entities and ORM, see: <https://symfony.com/doc/current/doctrine.html>
 
 ```php
 namespace App\Entity;
@@ -313,7 +326,7 @@ class Product
 
 ### Repositories
 
-> 📚 For custom queries and repositories, see: https://symfony.com/doc/current/doctrine.html#querying-for-objects-the-repository
+> 📚 For custom queries and repositories, see: <https://symfony.com/doc/current/doctrine.html#querying-for-objects-the-repository>
 
 ```php
 namespace App\Repository;
@@ -353,7 +366,7 @@ class ProductRepository extends ServiceEntityRepository
 
 ### Form Types
 
-> 📚 For form types and field options, see: https://symfony.com/doc/current/forms.html
+> 📚 For form types and field options, see: <https://symfony.com/doc/current/forms.html>
 
 ```php
 namespace App\Form;
@@ -400,9 +413,10 @@ class ProductType extends AbstractType
 
 ## Configuration Best Practices
 
-> 📚 For configuration details, see: https://symfony.com/doc/current/configuration.html
+> 📚 For configuration details, see: <https://symfony.com/doc/current/configuration.html>
 
 ### services.yaml
+
 ```yaml
 services:
     _defaults:
@@ -427,7 +441,7 @@ services:
 
 ### Security Configuration
 
-> 📚 For complete security documentation, see: https://symfony.com/doc/current/security.html
+> 📚 For complete security documentation, see: <https://symfony.com/doc/current/security.html>
 
 ```yaml
 security:
@@ -463,7 +477,9 @@ security:
 ```
 
 ### Routing Annotations/Attributes
+
 Always use PHP attributes for routing:
+
 ```php
 // Group routes with class-level prefix
 #[Route('/api/products', name: 'api_product_')]
@@ -482,9 +498,10 @@ class ProductApiController
 
 ## Messenger for Async Tasks
 
-> 📚 For async processing with Messenger, see: https://symfony.com/doc/current/messenger.html
+> 📚 For async processing with Messenger, see: <https://symfony.com/doc/current/messenger.html>
 
 ### Message
+
 ```php
 namespace App\Message;
 
@@ -503,6 +520,7 @@ class SendEmailNotification
 ```
 
 ### Handler
+
 ```php
 namespace App\MessageHandler;
 
@@ -531,6 +549,7 @@ class SendEmailNotificationHandler
 ```
 
 ### Configuration
+
 ```yaml
 framework:
     messenger:
@@ -551,9 +570,10 @@ framework:
 
 ## Testing Patterns
 
-> 📚 For comprehensive testing guide, see: https://symfony.com/doc/current/testing.html
+> 📚 For comprehensive testing guide, see: <https://symfony.com/doc/current/testing.html>
 
 ### Integration Test
+
 ```php
 namespace App\Tests\Service;
 
@@ -583,6 +603,7 @@ class OrderProcessorTest extends KernelTestCase
 ```
 
 ### Controller Test
+
 ```php
 namespace App\Tests\Controller;
 
@@ -619,6 +640,7 @@ class ProductControllerTest extends WebTestCase
 ```
 
 ### Repository Test
+
 ```php
 namespace App\Tests\Repository;
 
@@ -666,7 +688,9 @@ class ProductRepositoryTest extends KernelTestCase
 When implementing any feature, follow this exact sequence:
 
 #### 1. Write the Implementation Code
+
 Create your service, controller, or repository:
+
 ```php
 // src/Service/ProductPriceCalculator.php
 class ProductPriceCalculator
@@ -679,7 +703,9 @@ class ProductPriceCalculator
 ```
 
 #### 2. Write the Test Immediately
+
 Don't wait - write the test right after (or even before) the implementation:
+
 ```php
 // tests/Service/ProductPriceCalculatorTest.php
 namespace App\Tests\Service;
@@ -719,7 +745,9 @@ class ProductPriceCalculatorTest extends TestCase
 ```
 
 #### 3. Run the Test Immediately
+
 After writing the test, run it to verify it works:
+
 ```bash
 # Run the specific test file
 php bin/phpunit tests/Service/ProductPriceCalculatorTest.php
@@ -729,7 +757,9 @@ php bin/phpunit tests/Service/
 ```
 
 #### 4. Verify Test Output
+
 Check the output:
+
 ```
 PHPUnit 10.5.0 by Sebastian Bergmann and contributors.
 
@@ -744,7 +774,9 @@ OK (2 tests, 2 assertions)
 ❌ **Red** = Fix the code or test until green
 
 #### 5. Run Full Test Suite Before Committing
+
 Before any git commit, ALWAYS run the complete test suite:
+
 ```bash
 # Run ALL tests
 php bin/phpunit
@@ -754,7 +786,9 @@ echo $?  # Should return 0 (success)
 ```
 
 #### 6. Fix Any Failures
+
 If tests fail:
+
 ```bash
 # Example of failed test output
 FAILURES!
@@ -768,7 +802,9 @@ Tests: 15, Assertions: 23, Failures: 1.
 Never proceed with failing tests. Debug and fix immediately.
 
 #### 7. Commit Implementation + Tests Together
+
 Only commit when all tests pass:
+
 ```bash
 # Check git status - should see both implementation and test files
 git status
@@ -831,6 +867,7 @@ git commit -m "Add order processing feature
 ### Test Writing Guidelines
 
 **What to Test:**
+
 - ✅ Business logic in services (high priority)
 - ✅ Controller actions and responses
 - ✅ Custom repository methods
@@ -839,6 +876,7 @@ git commit -m "Add order processing feature
 - ✅ Edge cases and error handling
 
 **What NOT to Test:**
+
 - ❌ Framework features (Symfony's own code)
 - ❌ Third-party libraries (already tested)
 - ❌ Simple getters/setters without logic
@@ -890,6 +928,7 @@ When you (as the AI agent) develop code, you MUST use the Bash tool to run tests
 ```
 
 Example of what you should do:
+
 ```
 After writing OrderProcessor service and tests, I'm running the tests:
 
@@ -913,6 +952,7 @@ Now I'll commit the changes with both implementation and tests.
 Before EVERY commit, verify:
 
 **Required:**
+
 - [ ] Implementation code written
 - [ ] Test code written for new functionality
 - [ ] Tests run and ALL pass (`php bin/phpunit`)
@@ -922,6 +962,7 @@ Before EVERY commit, verify:
 - [ ] Both implementation and test files staged for commit
 
 **Recommended (especially for UI/frontend changes):**
+
 - [ ] Browser tested with Chrome MCP (for controllers/forms/UI)
 - [ ] No JavaScript console errors
 - [ ] Forms and user flows work as expected in browser
@@ -931,6 +972,7 @@ Before EVERY commit, verify:
 ## Browser Testing with Chrome MCP
 
 In addition to PHPUnit tests, you can test the application live in a browser using Chrome MCP tools. This is especially useful for:
+
 - Testing user interfaces and interactions
 - Verifying forms work correctly
 - Testing authentication flows
@@ -956,6 +998,7 @@ symfony server:status
 The server typically runs on `http://localhost:8000` or `http://127.0.0.1:8000`.
 
 **Important**: When running the server in the background, remember to stop it when done:
+
 ```bash
 symfony server:stop
 ```
@@ -963,6 +1006,7 @@ symfony server:stop
 ### Browser Testing Workflow
 
 #### 1. Launch the Development Server
+
 ```bash
 # Use Bash tool to start server in background
 symfony server:start -d
@@ -972,6 +1016,7 @@ symfony server:status
 ```
 
 #### 2. Navigate to the Application
+
 Use Chrome MCP tools to open and interact with your application:
 
 ```markdown
@@ -983,6 +1028,7 @@ mcp__chrome-mcp__navigate_page(type: "url", url: "http://localhost:8000/products
 ```
 
 #### 3. Take Snapshots to See the Page
+
 ```markdown
 # Take a text snapshot of the page (accessibility tree)
 mcp__chrome-mcp__take_snapshot()
@@ -992,6 +1038,7 @@ mcp__chrome-mcp__take_screenshot()
 ```
 
 #### 4. Interact with the Page
+
 ```markdown
 # Click elements (use uid from snapshot)
 mcp__chrome-mcp__click(uid: "123")
@@ -1011,6 +1058,7 @@ mcp__chrome-mcp__wait_for(text: "Product created successfully")
 ```
 
 #### 5. Verify Results
+
 ```markdown
 # Take another snapshot to verify changes
 mcp__chrome-mcp__take_snapshot()
@@ -1140,6 +1188,7 @@ mcp__chrome-mcp__take_screenshot(format: "png")
 ### When to Use Browser Testing
 
 Use browser testing for:
+
 - ✅ **UI/UX verification** - Forms, layouts, responsive design
 - ✅ **JavaScript functionality** - Dynamic features, AJAX, SPA behavior
 - ✅ **Complete user flows** - Registration, checkout, multi-step processes
@@ -1147,6 +1196,7 @@ Use browser testing for:
 - ✅ **Cross-page workflows** - Navigation, redirects, session handling
 
 Continue using PHPUnit for:
+
 - ✅ **Business logic** - Service methods, calculations, algorithms
 - ✅ **Unit tests** - Individual class methods
 - ✅ **API endpoints** - JSON responses, status codes
@@ -1220,6 +1270,7 @@ php -S localhost:8000 -t public/
 ## Common Workflows
 
 ### Creating a New Entity
+
 ```bash
 php bin/console make:entity Product
 # Add fields interactively
@@ -1228,18 +1279,21 @@ php bin/console doctrine:migrations:migrate
 ```
 
 ### Creating CRUD
+
 ```bash
 php bin/console make:crud Product
 # Generates controller, form type, and templates
 ```
 
 ### Creating a Service
+
 ```bash
 php bin/console make:service OrderProcessor
 # Or just create the class - autoconfigure handles the rest
 ```
 
 ### Debugging
+
 ```bash
 php bin/console debug:autowiring           # See available services
 php bin/console debug:router               # See all routes
@@ -1250,6 +1304,7 @@ php bin/console debug:config FrameworkBundle  # See configuration
 ## Critical Anti-Patterns to Avoid
 
 1. ❌ **Accessing container directly**
+
    ```php
    // WRONG
    $service = $this->container->get(SomeService::class);
@@ -1259,6 +1314,7 @@ php bin/console debug:config FrameworkBundle  # See configuration
    ```
 
 2. ❌ **Business logic in controllers**
+
    ```php
    // WRONG - controller has business logic
    public function process(Order $order): Response
@@ -1275,6 +1331,7 @@ php bin/console debug:config FrameworkBundle  # See configuration
    ```
 
 3. ❌ **N+1 Query Problem**
+
    ```php
    // WRONG - will cause N+1 queries
    foreach ($products as $product) {
@@ -1286,6 +1343,7 @@ php bin/console debug:config FrameworkBundle  # See configuration
    ```
 
 4. ❌ **Passing Entities in Messages**
+
    ```php
    // WRONG - entities can't be serialized
    $bus->dispatch(new ProcessOrder($order));
@@ -1295,6 +1353,7 @@ php bin/console debug:config FrameworkBundle  # See configuration
    ```
 
 5. ❌ **Forgetting flush()**
+
    ```php
    // WRONG - changes not persisted
    $em->persist($product);
@@ -1305,6 +1364,7 @@ php bin/console debug:config FrameworkBundle  # See configuration
    ```
 
 6. ❌ **Public services**
+
    ```php
    # WRONG - don't make services public
    App\Service\MyService:
@@ -1314,6 +1374,7 @@ php bin/console debug:config FrameworkBundle  # See configuration
    ```
 
 7. ❌ **Hardcoded URLs**
+
    ```php
    // WRONG
    return $this->redirect('/products/123');
@@ -1323,6 +1384,7 @@ php bin/console debug:config FrameworkBundle  # See configuration
    ```
 
 8. ❌ **Committing without tests or with failing tests**
+
    ```bash
    # WRONG - committing without running tests
    git add src/Service/OrderProcessor.php
@@ -1345,7 +1407,7 @@ php bin/console debug:config FrameworkBundle  # See configuration
 
 ## Twig Best Practices
 
-> 📚 For Twig templates and functions, see: https://symfony.com/doc/current/templates.html
+> 📚 For Twig templates and functions, see: <https://symfony.com/doc/current/templates.html>
 
 ```twig
 {# Extend base template #}
@@ -1385,9 +1447,10 @@ php bin/console debug:config FrameworkBundle  # See configuration
 
 ## Performance Checklist
 
-> 📚 For performance optimization, see: https://symfony.com/doc/current/performance.html
+> 📚 For performance optimization, see: <https://symfony.com/doc/current/performance.html>
 
 Production deployment:
+
 - ✅ Enable OPcache with `opcache.validate_timestamps=0`
 - ✅ Run `composer dump-autoload --classmap-authoritative --no-dev`
 - ✅ Set `APP_ENV=prod` and `APP_DEBUG=0`
@@ -1433,6 +1496,7 @@ For every feature or fix, you MUST:
    - Always: Test business logic and validation rules
 
 3. **Run Tests After Development** (BEFORE committing):
+
    ```bash
    # Run the complete test suite
    php bin/phpunit
@@ -1465,6 +1529,7 @@ When you encounter a topic that requires deeper understanding or more detailed e
 4. **Extract relevant code examples and explanations** to apply to the current task
 
 Example WebFetch usage:
+
 ```
 WebFetch URL: https://symfony.com/doc/current/security/voters.html
 Prompt: "Explain how to create a custom voter for checking if a user can edit a Product entity, including the full code example."
